@@ -1,0 +1,216 @@
+;#<FEEDBACK># ARM Linker, 5.03 [Build 76]: Last Updated: Fri Jun 22 13:33:17 2018
+;VERSION 0.2
+;FILE core_cm3.o
+__REV16 <= USED 0
+__REVSH <= USED 0
+__get_MSP <= USED 0
+__get_PSP <= USED 0
+__set_MSP <= USED 0
+__set_PSP <= USED 0
+;FILE encoder.o
+Get_Enc_Cnt <= USED 0
+TIM2_ENC_Init <= USED 0
+;FILE exti.o
+EXTI_PB89_Config <= USED 0
+;FILE led.o
+LED_GPIO_Config <= USED 0
+;FILE main.o
+;FILE misc.o
+NVIC_SetVectorTable <= USED 0
+NVIC_SystemLPConfig <= USED 0
+SysTick_CLKSourceConfig <= USED 0
+;FILE nrf24l01.o
+NRF24L01_RxPacket <= USED 0
+NRF24L01_TxPacket <= USED 0
+;FILE pwm_output.o
+Step_M_Rps <= USED 0
+;FILE startup_stm32f10x_hd.o
+;FILE stm32f10x_exti.o
+EXTI_ClearFlag <= USED 0
+EXTI_DeInit <= USED 0
+EXTI_GenerateSWInterrupt <= USED 0
+EXTI_GetFlagStatus <= USED 0
+EXTI_StructInit <= USED 0
+;FILE stm32f10x_flash.o
+FLASH_ClearFlag <= USED 0
+FLASH_EnableWriteProtection <= USED 0
+FLASH_EraseAllBank1Pages <= USED 0
+FLASH_EraseAllPages <= USED 0
+FLASH_EraseOptionBytes <= USED 0
+FLASH_ErasePage <= USED 0
+FLASH_GetBank1Status <= USED 0
+FLASH_GetFlagStatus <= USED 0
+FLASH_GetPrefetchBufferStatus <= USED 0
+FLASH_GetReadOutProtectionStatus <= USED 0
+FLASH_GetStatus <= USED 0
+FLASH_GetUserOptionByte <= USED 0
+FLASH_GetWriteProtectionOptionByte <= USED 0
+FLASH_HalfCycleAccessCmd <= USED 0
+FLASH_ITConfig <= USED 0
+FLASH_Lock <= USED 0
+FLASH_LockBank1 <= USED 0
+FLASH_ProgramHalfWord <= USED 0
+FLASH_ProgramOptionByteData <= USED 0
+FLASH_ProgramWord <= USED 0
+FLASH_ReadOutProtection <= USED 0
+FLASH_Unlock <= USED 0
+FLASH_UnlockBank1 <= USED 0
+FLASH_UserOptionByteConfig <= USED 0
+FLASH_WaitForLastBank1Operation <= USED 0
+FLASH_WaitForLastOperation <= USED 0
+;FILE stm32f10x_gpio.o
+GPIO_AFIODeInit <= USED 0
+GPIO_DeInit <= USED 0
+GPIO_ETH_MediaInterfaceConfig <= USED 0
+GPIO_EventOutputCmd <= USED 0
+GPIO_EventOutputConfig <= USED 0
+GPIO_PinLockConfig <= USED 0
+GPIO_PinRemapConfig <= USED 0
+GPIO_ReadInputData <= USED 0
+GPIO_ReadInputDataBit <= USED 0
+GPIO_ReadOutputData <= USED 0
+GPIO_ReadOutputDataBit <= USED 0
+GPIO_ResetBits <= USED 0
+GPIO_SetBits <= USED 0
+GPIO_StructInit <= USED 0
+GPIO_Write <= USED 0
+GPIO_WriteBit <= USED 0
+;FILE stm32f10x_it.o
+;FILE stm32f10x_rcc.o
+RCC_ADCCLKConfig <= USED 0
+RCC_AHBPeriphClockCmd <= USED 0
+RCC_AdjustHSICalibrationValue <= USED 0
+RCC_BackupResetCmd <= USED 0
+RCC_ClearFlag <= USED 0
+RCC_ClearITPendingBit <= USED 0
+RCC_ClockSecuritySystemCmd <= USED 0
+RCC_GetITStatus <= USED 0
+RCC_HSICmd <= USED 0
+RCC_ITConfig <= USED 0
+RCC_LSEConfig <= USED 0
+RCC_LSICmd <= USED 0
+RCC_MCOConfig <= USED 0
+RCC_RTCCLKCmd <= USED 0
+RCC_RTCCLKConfig <= USED 0
+RCC_USBCLKConfig <= USED 0
+;FILE stm32f10x_spi.o
+I2S_Cmd <= USED 0
+I2S_Init <= USED 0
+I2S_StructInit <= USED 0
+SPI_BiDirectionalLineConfig <= USED 0
+SPI_CalculateCRC <= USED 0
+SPI_DataSizeConfig <= USED 0
+SPI_GetCRC <= USED 0
+SPI_GetCRCPolynomial <= USED 0
+SPI_I2S_ClearFlag <= USED 0
+SPI_I2S_ClearITPendingBit <= USED 0
+SPI_I2S_DMACmd <= USED 0
+SPI_I2S_DeInit <= USED 0
+SPI_I2S_GetITStatus <= USED 0
+SPI_I2S_ITConfig <= USED 0
+SPI_NSSInternalSoftwareConfig <= USED 0
+SPI_SSOutputCmd <= USED 0
+SPI_StructInit <= USED 0
+SPI_TransmitCRC <= USED 0
+;FILE stm32f10x_tim.o
+TIM_BDTRConfig <= USED 0
+TIM_BDTRStructInit <= USED 0
+TIM_CCPreloadControl <= USED 0
+TIM_CCxCmd <= USED 0
+TIM_CCxNCmd <= USED 0
+TIM_ClearOC1Ref <= USED 0
+TIM_ClearOC2Ref <= USED 0
+TIM_ClearOC3Ref <= USED 0
+TIM_ClearOC4Ref <= USED 0
+TIM_CounterModeConfig <= USED 0
+TIM_CtrlPWMOutputs <= USED 0
+TIM_DMACmd <= USED 0
+TIM_DMAConfig <= USED 0
+TIM_ETRClockMode1Config <= USED 0
+TIM_ETRClockMode2Config <= USED 0
+TIM_ETRConfig <= USED 0
+TIM_EncoderInterfaceConfig <= USED 0
+TIM_ForcedOC1Config <= USED 0
+TIM_ForcedOC2Config <= USED 0
+TIM_ForcedOC3Config <= USED 0
+TIM_ForcedOC4Config <= USED 0
+TIM_GenerateEvent <= USED 0
+TIM_GetCapture1 <= USED 0
+TIM_GetCapture2 <= USED 0
+TIM_GetCapture3 <= USED 0
+TIM_GetCapture4 <= USED 0
+TIM_GetCounter <= USED 0
+TIM_GetFlagStatus <= USED 0
+TIM_GetPrescaler <= USED 0
+TIM_ICInit <= USED 0
+TIM_ICStructInit <= USED 0
+TIM_ITRxExternalClockConfig <= USED 0
+TIM_InternalClockConfig <= USED 0
+TIM_OC1FastConfig <= USED 0
+TIM_OC1NPolarityConfig <= USED 0
+TIM_OC1PolarityConfig <= USED 0
+TIM_OC2FastConfig <= USED 0
+TIM_OC2NPolarityConfig <= USED 0
+TIM_OC2PolarityConfig <= USED 0
+TIM_OC3FastConfig <= USED 0
+TIM_OC3NPolarityConfig <= USED 0
+TIM_OC3PolarityConfig <= USED 0
+TIM_OC4FastConfig <= USED 0
+TIM_OC4PolarityConfig <= USED 0
+TIM_OCStructInit <= USED 0
+TIM_PWMIConfig <= USED 0
+TIM_PrescalerConfig <= USED 0
+TIM_SelectCCDMA <= USED 0
+TIM_SelectCOM <= USED 0
+TIM_SelectHallSensor <= USED 0
+TIM_SelectInputTrigger <= USED 0
+TIM_SelectMasterSlaveMode <= USED 0
+TIM_SelectOCxM <= USED 0
+TIM_SelectOnePulseMode <= USED 0
+TIM_SelectOutputTrigger <= USED 0
+TIM_SelectSlaveMode <= USED 0
+TIM_SetAutoreload <= USED 0
+TIM_SetClockDivision <= USED 0
+TIM_SetCompare1 <= USED 0
+TIM_SetCompare3 <= USED 0
+TIM_SetCompare4 <= USED 0
+TIM_SetCounter <= USED 0
+TIM_SetIC1Prescaler <= USED 0
+TIM_SetIC2Prescaler <= USED 0
+TIM_SetIC3Prescaler <= USED 0
+TIM_SetIC4Prescaler <= USED 0
+TIM_TIxExternalClockConfig <= USED 0
+TIM_TimeBaseStructInit <= USED 0
+TIM_UpdateDisableConfig <= USED 0
+TIM_UpdateRequestConfig <= USED 0
+;FILE stm32f10x_usart.o
+USART_ClockInit <= USED 0
+USART_ClockStructInit <= USED 0
+USART_DMACmd <= USED 0
+USART_DeInit <= USED 0
+USART_GetFlagStatus <= USED 0
+USART_HalfDuplexCmd <= USED 0
+USART_IrDACmd <= USED 0
+USART_IrDAConfig <= USED 0
+USART_LINBreakDetectLengthConfig <= USED 0
+USART_LINCmd <= USED 0
+USART_OneBitMethodCmd <= USED 0
+USART_OverSampling8Cmd <= USED 0
+USART_ReceiverWakeUpCmd <= USED 0
+USART_SendBreak <= USED 0
+USART_SendData <= USED 0
+USART_SetAddress <= USED 0
+USART_SetGuardTime <= USED 0
+USART_SetPrescaler <= USED 0
+USART_SmartCardCmd <= USED 0
+USART_SmartCardNACKCmd <= USED 0
+USART_StructInit <= USED 0
+USART_WakeUpConfig <= USED 0
+;FILE sys.o
+;FILE system_stm32f10x.o
+SystemCoreClockUpdate <= USED 0
+;FILE systick.o
+;FILE time_test.o
+;FILE usart1.o
+_sys_exit <= USED 0
+fputc <= USED 0

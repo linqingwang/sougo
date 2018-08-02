@@ -1,0 +1,30 @@
+--cpu Cortex-M3
+"..\output\startup_stm32f10x_hd.o"
+"..\output\main.o"
+"..\output\stm32f10x_it.o"
+"..\output\pwm_output.o"
+"..\output\encoder.o"
+"..\output\systick.o"
+"..\output\usart1.o"
+"..\output\exti.o"
+"..\output\led.o"
+"..\output\time_test.o"
+"..\output\nrf24l01.o"
+"..\output\sys.o"
+"..\output\stm32f10x_rcc.o"
+"..\output\stm32f10x_gpio.o"
+"..\output\stm32f10x_tim.o"
+"..\output\misc.o"
+"..\output\stm32f10x_usart.o"
+"..\output\stm32f10x_exti.o"
+"..\output\stm32f10x_spi.o"
+"..\output\stm32f10x_flash.o"
+"..\output\core_cm3.o"
+"..\output\system_stm32f10x.o"
+F:\20171010keil\ARM\RV31\LIB\RTX_CM3.LIB
+--library_type=microlib
+--feedback "..\Output\STM32-DEMO.fed" --feedback_image=none
+--strict --scatter "..\Output\STM32-DEMO.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "..\Listing\STM32-DEMO.map" -o ..\Output\STM32-DEMO.axf
