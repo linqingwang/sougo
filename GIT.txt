@@ -1,0 +1,3 @@
+windows进入某一路径下
+---E:
+---cd GIT
