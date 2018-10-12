@@ -1,3 +1,7 @@
 windows进入某一路径下
 ---E:
 ---cd GIT
+查看仓库状态：git status
+将文件加入暂存区：git add GIT.txt或者 . 添加全部文件
+将文件加入仓库：git commit -m "注释"
+将文件远程提交：git push 
