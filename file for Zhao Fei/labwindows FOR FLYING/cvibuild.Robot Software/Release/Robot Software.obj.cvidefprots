@@ -1,0 +1,52 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[Panel]
+Class="Function"
+Prototype="int Panel(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[butCheckX]
+Class="Function"
+Prototype="int butCheckX(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[butCheckI]
+Class="Function"
+Prototype="int butCheckI(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[buttonHelp]
+Class="Function"
+Prototype="int buttonHelp(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[buttonQuit]
+Class="Function"
+Prototype="int buttonQuit(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[buttonClearCount]
+Class="Function"
+Prototype="int buttonClearCount(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[buttonClearRev]
+Class="Function"
+Prototype="int buttonClearRev(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[buttonClearSend]
+Class="Function"
+Prototype="int buttonClearSend(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[buttonSend]
+Class="Function"
+Prototype="int buttonSend(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[switchOpenCom]
+Class="Function"
+Prototype="int switchOpenCom(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[uartRevData]
+Class="Function"
+Prototype="int uartRevData(int protNo, int event, void *callbackData);"
+
+[DisplayRS232Error]
+Class="Function"
+Prototype="void DisplayRS232Error(int RS232Error);"
+

@@ -1,0 +1,40 @@
+TargetFileVersion = "1.0.0.0" ;
+TargetProdVersion = "1.0.0.0" ;
+HDRS = 	"f:\\labcaijika\\cvi2013\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2013\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"f:\\labcaijika\\cvi2013\\include\\ansi"
+	"f:\\labcaijika\\cvi2013\\include\\clang\\2.9"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"f:\\labcaijika\\cvi2013\\sdk\\include"
+	"c:\\Users\\lenovo\\Desktop\\2018711上位机（labwindows）"
+	"f:\\labcaijika\\cvi2013\\toolslib\\activex\\word"
+	"f:\\labcaijika\\cvi2013\\toolslib\\activex\\excel"
+	"f:\\labcaijika\\cvi2013\\toolslib\\custctrl"
+	"f:\\labcaijika\\cvi2013\\toolslib\\custctrl\\custsupp"
+	"f:\\labcaijika\\cvi2013\\toolslib\\cvirtsup"
+	"f:\\labcaijika\\cvi2013\\toolslib\\datasock"
+	"f:\\labcaijika\\cvi2013\\toolslib\\daqUtil"
+	"f:\\labcaijika\\cvi2013\\toolslib\\printing"
+	"f:\\labcaijika\\cvi2013\\toolslib\\toolbox"
+	"f:\\labcaijika\\cvi2013\\toolslib\\reportgen"
+	"f:\\labcaijika\\cvi2013\\toolslib\\localui"
+	"f:\\labcaijika\\cvi2013\\instr"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2013\\instr"
+	"f:\\labcaijika\\CVI2013\\bin"
+	"c:\\ProgramData\\National Instruments\\CVI2013\\bin"
+	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
+	;
+include Jamfile_instr ;
+Object "c:\\Users\\lenovo\\Desktop\\2018711上位机（labwindows）\\cvibuild.Robot Software\\Release\\Robot Software.obj" : "c:\\Users\\lenovo\\Desktop\\2018711上位机（labwindows）\\Robot Software.c" ;
+PrjObjects += "c:\\Users\\lenovo\\Desktop\\2018711上位机（labwindows）\\cvibuild.Robot Software\\Release\\Robot Software.obj" ;
+Object resources.res : resources.in.rc ;
+MainFromObjects "Robot Software.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "Robot Software.exe" : link_options.txt ;
+Depends "Robot Software.exe" : resources.res ;
+Depends all : "Robot Software.exe" ;

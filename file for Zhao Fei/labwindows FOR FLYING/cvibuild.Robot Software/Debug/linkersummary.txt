@@ -1,0 +1,7 @@
+Robot Software.obj
+cvi.lib
+cvistart.lib
+kernel32.lib
+user32.lib
+EXE Symbol Module
+Resource Module

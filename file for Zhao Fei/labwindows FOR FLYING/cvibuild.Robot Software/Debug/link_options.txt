@@ -1,0 +1,39 @@
+-nologo
+-out:e:\[001]2018课业相关资料\001飞鼠文件资料\002-上位机算法设计\2018711上位机（labwindows）\cvibuild.Robot Software\Debug\Robot Software.exe
+-arch:x86
+-timestamp
+-debug:2
+-loadextmod
+-res:e:\[001]2018课业相关资料\001飞鼠文件资料\002-上位机算法设计\2018711上位机（labwindows）\cvibuild.Robot Software\Debug\resources.res
+-entry:_CVIWinMainStartupCodeForDebugging@0
+-base:0x400000
+-linked:e:\[001]2018课业相关资料\001飞鼠文件资料\002-上位机算法设计\2018711上位机（labwindows）\cvibuild.Robot Software\Debug\linkersummary.txt
+-dlldeps:e:\[001]2018课业相关资料\001飞鼠文件资料\002-上位机算法设计\2018711上位机（labwindows）\cvibuild.Robot Software\Debug\dlldependencies.txt
+-licensing:e:\[001]2018课业相关资料\001飞鼠文件资料\002-上位机算法设计\2018711上位机（labwindows）\cvibuild.Robot Software\Debug\linkerlicensing.txt
+-browsedeps:e:\[001]2018课业相关资料\001飞鼠文件资料\002-上位机算法设计\2018711上位机（labwindows）\cvibuild.Robot Software\Debug\moduledependencies.txt
+-stackreserve:1048576
+-stackcommit:4096
+-in:e:\[001]2018课业相关资料\001飞鼠文件资料\002-上位机算法设计\2018711上位机（labwindows）\cvibuild.Robot Software\Debug\Robot Software.obj
+-more:f:\labcaijika\cvi2013\bin\msvc\cvistart.lib
+-more:f:\labcaijika\cvi2013\bin\msvc\cvi.lib
+-more:f:\labcaijika\cvi2013\sdk\lib\msvc\advapi32.lib
+-more:c:\ProgramData\National Instruments\CVI2013\bin\msvc\analysis.lib
+-more:f:\labcaijika\CVI2013\bin\msvc\cviauto.lib
+-more:f:\labcaijika\CVI2013\bin\msvc\cviddc.lib
+-more:f:\labcaijika\CVI2013\bin\msvc\cvidotnet.lib
+-more:f:\labcaijika\CVI2013\bin\msvc\cvinetstreams.lib
+-more:f:\labcaijika\CVI2013\bin\msvc\cvinetv.lib
+-more:f:\labcaijika\CVI2013\bin\msvc\cvintwrk.lib
+-more:f:\labcaijika\CVI2013\bin\msvc\cvitdms.lib
+-more:f:\labcaijika\cvi2013\sdk\lib\msvc\gdi32.lib
+-more:f:\labcaijika\CVI2013\bin\msvc\gpib.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\ivi.lib
+-more:f:\labcaijika\cvi2013\sdk\lib\msvc\kernel32.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\nisyscfg.lib
+-more:f:\labcaijika\CVI2013\bin\msvc\nivxi.lib
+-more:f:\labcaijika\CVI2013\bin\msvc\omp.lib
+-more:f:\labcaijika\CVI2013\toolslib\toolbox\msvc\toolbox.obj
+-more:f:\labcaijika\cvi2013\sdk\lib\msvc\user32.lib
+-more:f:\labcaijika\cvi2013\sdk\lib\msvc\uuid.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\visa.lib
+-more:f:\labcaijika\cvi2013\sdk\lib\msvc\winmm.lib
